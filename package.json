@@ -1,0 +1,21 @@
+{
+  "name": "transcriber",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently \"bun dev:api\" \"bun dev:web\"",
+    "dev:api": "cd api; bun run dev",
+    "dev:web": "cd web; bun run dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "concurrently": "8.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

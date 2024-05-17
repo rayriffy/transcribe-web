@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h-safe-screen {
+  height: 100dvh;
+}
+
+html {
+  height: 100dvh;
+  font-family: 'JetBrains Mono Variable', Niramit, monospace;
+}

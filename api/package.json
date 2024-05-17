@@ -1,0 +1,17 @@
+{
+  "name": "@transcriber/api",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/server.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.0.2",
+    "elysia": "latest",
+    "google-translate-api-x": "^10.6.8"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.ts"
+}
