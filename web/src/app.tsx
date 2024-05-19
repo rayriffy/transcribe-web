@@ -8,7 +8,7 @@ export const App = () => {
   useTranscribe();
 
   return (
-    <main className={"p-4 overflow-hidden h-[100dvh] relative"}>
+    <main className={"p-4 overflow-hidden h-[100dvh] relative w-full"}>
       <ActiveBlock />
     </main>
   );
